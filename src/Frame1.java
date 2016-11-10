@@ -123,6 +123,7 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().add(jLabel7);
         jLabel7.setBounds(250, 110, 30, 30);
 
+        bkeluar.setBackground(new java.awt.Color(51, 255, 255));
         bkeluar.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         bkeluar.setText("Keluar");
         bkeluar.addActionListener(new java.awt.event.ActionListener() {
@@ -133,6 +134,7 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().add(bkeluar);
         bkeluar.setBounds(350, 240, 90, 30);
 
+        bhitung.setBackground(new java.awt.Color(51, 255, 255));
         bhitung.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         bhitung.setText("Hitung");
         bhitung.addActionListener(new java.awt.event.ActionListener() {
@@ -143,6 +145,7 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().add(bhitung);
         bhitung.setBounds(60, 240, 80, 30);
 
+        bcl.setBackground(new java.awt.Color(51, 255, 255));
         bcl.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         bcl.setText("Coba Lagi");
         bcl.addActionListener(new java.awt.event.ActionListener() {
@@ -168,7 +171,7 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().add(hasil);
         hasil.setBounds(60, 390, 400, 40);
 
-        jLabel11.setFont(new java.awt.Font("Sitka Heading", 1, 16)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Sitka Heading", 1, 17)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(0, 51, 153));
         jLabel11.setText("Hasil Diagnosa Kesehatan");
         getContentPane().add(jLabel11);
