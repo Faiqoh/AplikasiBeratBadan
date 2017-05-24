@@ -61,7 +61,7 @@ public class Frame1 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Utsaah", 1, 24)); // NOI18N
         jLabel1.setText("UJI IDEAL TUBUH");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(190, 20, 170, 30);
+        jLabel1.setBounds(130, 20, 230, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
         jLabel2.setText("Berat Badan");
@@ -156,16 +156,16 @@ public class Frame1 extends javax.swing.JFrame {
         getContentPane().add(bcl);
         bcl.setBounds(190, 240, 110, 30);
 
-        jLabel8.setFont(new java.awt.Font("Utsaah", 0, 18)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Utsaah", 0, 16)); // NOI18N
         jLabel8.setText("Berat badan ideal anda adalah");
         getContentPane().add(jLabel8);
-        jLabel8.setBounds(60, 300, 180, 30);
+        jLabel8.setBounds(60, 300, 230, 30);
         getContentPane().add(ideal);
-        ideal.setBounds(250, 300, 60, 30);
+        ideal.setBounds(310, 300, 60, 30);
 
         jLabel9.setText("Kg");
         getContentPane().add(jLabel9);
-        jLabel9.setBounds(320, 300, 30, 30);
+        jLabel9.setBounds(380, 300, 30, 30);
         getContentPane().add(saran);
         saran.setBounds(60, 440, 400, 40);
         getContentPane().add(hasil);
@@ -213,7 +213,6 @@ public class Frame1 extends javax.swing.JFrame {
 
     private void bkeluarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bkeluarActionPerformed
         // TODO add your handling code here:
-        //dispose();
         System.exit(0);
     }//GEN-LAST:event_bkeluarActionPerformed
 
@@ -301,15 +300,15 @@ public class Frame1 extends javax.swing.JFrame {
         
         if (h1 < bt ) {
             ideal.setText(temp);
-            hasil.setText("Maaf " + nama.getText()+ " , Sepertinya anda Overweight :( ");
+            hasil.setText("Maaf " + nama.getText()+ " , Sepertinya anda Overweight :(");
             saran.setText("Banyaklah berolahraga dan hindari makanan berkolesterol");
         } else if (h1 > bt) {
             ideal.setText(temp);
-            hasil.setText("Maaf " + nama.getText()+ " , Sepertinya anda Underweight : ( ");
+            hasil.setText("Maaf " + nama.getText()+ " , Sepertinya anda Underweight :( ");
             saran.setText("Banyaklah mengkonsumsi makanan yang berkarbohidrat");        
         } else {
             ideal.setText(temp);
-            hasil.setText("Hallo" + nama.getText()+ " , Berat Badan Anda sudah ideal : ( ");
+            hasil.setText("Hallo" + nama.getText()+ " , Berat Badan Anda sudah ideal :)");
             saran.setText("Lanjutkan pola makan teratur dan gaya hidup sehat :)");
         }
     }
